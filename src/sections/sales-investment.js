@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { Box, Container, Flex, Heading, Text, Link } from 'theme-ui';
-import graph from 'assets/graph.png';
+import graph from 'assets/climate-logo.png';
 const SALES_INVESTMENT_DATA = {
   image: graph,
-  title: 'Total Investment sale from last year transaction',
+  title: 'The Official Amazon Protection NFT Game.',
   text:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna aliqua minim Lorem ipsum dolor sit amet consectetur.',
   button: {
@@ -21,9 +21,9 @@ const SalesInvestment = () => {
           <Box sx={styles.image}>
             <Image
               src={image}
-              alt="Investment Chart"
-              width={617}
-              height={400}
+              alt="Climate-Guardians-Logo"
+              width={521}
+              height={652}
             />
           </Box>
           <Box sx={styles.content}>
@@ -109,16 +109,16 @@ const styles = {
     backgroundColor: '#EEF1F4',
     borderRadius: '5px',
     fontSize: ['13px', '14px', '15px'],
-    padding: ['14px 20px 13px', '14px 25px 13px', '17px 25px 15px'],
-    fontWeight: 700,
+    padding: ['14px 20px 13px', '14px 25px 13px', '17px 30px 15px'],
     lineHeight: 1,
+    fontWeight: 700,
     display: 'inline-flex',
     alignItems: 'center',
     textTransform: 'uppercase',
     color: 'rgba(2,7,62,.7)',
     transition: 'all 300ms ease',
     '&:hover': {
-      backgroundColor: '#161718',
+      backgroundColor: 'primary',
       color: '#ffffff',
     },
   },

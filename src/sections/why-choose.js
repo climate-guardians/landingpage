@@ -1,38 +1,38 @@
 import React from 'react';
 import { Container, Box, Flex, Heading, Text, Image as Img } from 'theme-ui';
-import icon1 from 'assets/why-choose-1.svg';
+import icon1 from 'assets/why-choose-gaming.svg';
 import icon2 from 'assets/why-choose-2.svg';
 import icon3 from 'assets/why-choose-3.svg';
 import icon4 from 'assets/why-choose-4.svg';
 const WHY_CHOOSE_DATA = {
   blockTitle: {
-    title: 'What if we combine',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing',
+    title: 'We at Climate Guardians combine',
+    text: '',
   },
   posts: [
     {
       icon: icon1,
-      title: 'Play',
+      title: 'Gaming',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Elements from collectible card games, tower defense and online battle arena to protect the Amazon rainforest',
     },
     {
       icon: icon2,
-      title: 'DeFi',
+      title: 'NFTs',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Inspired by Brazilian folklore and mythology, user-owned NFTs charged with Co2 to generate Oxygen.',
     },
     {
       icon: icon3,
-      title: 'NFT',
+      title: 'Rainforest Treasury',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Participate in the in-game treasury of real world rainforest owned and protected by the community.',
     },
     {
       icon: icon4,
-      title: 'Land',
+      title: 'Defi',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Stake your Oxygen & Co2 tokens, earn yield and claim fractional ownership',
     },
   ],
 };

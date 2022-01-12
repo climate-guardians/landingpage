@@ -4,26 +4,26 @@ import line from 'assets/roadmap-line.svg';
 const ROAD_MAP_DATA = {
   blockTitle: {
     title: 'Meet the Roadmap',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing',
+    text: 'Rainforest captures Co2',
   },
   posts: [
     {
-      date: 'July 2021',
-      title: 'Hackathon Co2 prototype',
+      date: 'February 2022',
+      title: 'Community & Game',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'Early community building and next phase game design',
     },
     {
-      date: 'September 2021',
-      title: 'Game Design Document',
+      date: 'May 2022',
+      title: 'Preview',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'Sneak preview game release',
     },
     {
-      date: 'November 2021',
-      title: 'Flori Ventures Investment',
+      date: 'July 2022',
+      title: 'Genesis Forest NFTs',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'Initial minting event of Genesis rainforest NFTs. Buy trees, start capturing carbon',
     },
   ],
 };

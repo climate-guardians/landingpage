@@ -18,7 +18,7 @@ const OUR_WALLET_DATA = {
   walletThumb: walletImage,
   title: 'Our Mobile Game',
   text:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna aliqua minim Lorem ipsum dolor sit amet consectetur.',
+    'In-game success reflects real world impact, allowing players to join the alliance to safeguard the amazon and strive for a decarbonized world.',
   tagLine: '*Game is in development',
   options: [
     {

@@ -26,7 +26,7 @@ export default function IndexPage() {
           />
           <Banner />
           <WhyChoose />
-          {/* <SalesInvestment /> */}
+          <SalesInvestment />
           <RoadMap />
           <TeamSection />
           {/* <CountDownBlock />

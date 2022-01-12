@@ -8,7 +8,7 @@ const BANNER_DATA = {
     'The first play and earn Game with real world impact on Climate Change.',
   button: {
     link: '#',
-    label: 'Get Co2',
+    label: 'Save the Amazon',
   },
   videoBtn: {
     link: '#',
@@ -92,19 +92,20 @@ const styles = {
     justifyContent: ['center', null, null, 'flex-start'],
   },
   btn: {
-    backgroundColor: 'primary',
-    borderRadius: '7px',
-    lineHeight: 1,
+    backgroundColor: '#EEF1F4',
+    borderRadius: '5px',
     fontSize: ['13px', '14px', '15px'],
     padding: ['14px 20px 13px', '14px 25px 13px', '17px 30px 15px'],
+    lineHeight: 1,
     fontWeight: 700,
     display: 'inline-flex',
     alignItems: 'center',
     textTransform: 'uppercase',
-    color: '#ffffff',
+    color: 'rgba(2,7,62,.7)',
     transition: 'all 300ms ease',
     '&:hover': {
-      opacity: 0.8,
+      backgroundColor: 'primary',
+      color: '#ffffff',
     },
   },
   videoBtn: {

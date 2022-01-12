@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Stefan Kermer',
-    title: 'Stefan Koerms',
-    designation: 'Founder',
+    altText: 'Stefan',
+    title: 'Stefan',
+    designation: 'Climate Khan',
     socialProfile: [
       {
         id: 1,
@@ -43,9 +43,9 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Founder',
+    altText: 'Anthony',
+    title: 'Anthony',
+    designation: 'Producer',
     socialProfile: [
       {
         id: 1,
@@ -70,9 +70,9 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Ferdinand',
+    title: 'Ferdinand',
+    designation: 'AAA Game Artist',
     socialProfile: [
       {
         id: 1,
@@ -97,9 +97,9 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
-    designation: 'Web Developer',
+    altText: 'Coups',
+    title: 'Coups',
+    designation: 'Classy Laywer & finance',
     socialProfile: [
       {
         id: 1,
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Max',
+    title: 'Max',
+    designation: 'NFT & Solidity DEV',
     socialProfile: [
       {
         id: 1,
@@ -151,28 +151,28 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Alexi',
+    title: 'Alexi',
+    designation: 'Mobile Game Design',
     socialProfile: [
-      {
-        id: 1,
-        name: 'facebook',
-        path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
+      // {
+      //   id: 1,
+      //   name: 'facebook',
+      //   path: '#',
+      //   icon: <FaFacebookF />,
+      // },
+      // {
+      //   id: 2,
+      //   name: 'twitter',
+      //   path: '#',
+      //   icon: <FaTwitter />,
+      // },
+      // {
+      //   id: 3,
+      //   name: 'instagram',
+      //   path: '#',
+      //   icon: <FaInstagram />,
+      // },
     ],
   },
 ];
