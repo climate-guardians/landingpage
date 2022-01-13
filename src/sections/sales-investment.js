@@ -15,7 +15,7 @@ const SALES_INVESTMENT_DATA = {
 const SalesInvestment = () => {
   const { image, title, text, button } = SALES_INVESTMENT_DATA;
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" id="game" sx={styles.section}>
       <Container sx={styles.container}>
         <Flex sx={styles.flex}>
           <Box sx={styles.image}>

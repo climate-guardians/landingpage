@@ -5,7 +5,7 @@ import BannerImage from 'assets/curupira.png';
 const BANNER_DATA = {
   title: 'Welcome to Climate Guardians',
   text:
-    'The first play and earn Game with real world impact on Climate Change.',
+    'The play and earn Game with real world impact on Climate Change.',
   button: {
     link: '#',
     label: 'Save the Amazon',
@@ -31,9 +31,9 @@ const Banner = () => {
           <Heading as="h1">{title}</Heading>
           <Text as="p">{text}</Text>
           <Box sx={styles.btnWrap}>
-            <Link href={button.link} sx={styles.btn}>
+            {/* <Link href={button.link} sx={styles.btn}>
               {button.label}
-            </Link>
+            </Link> */}
           </Box>
         </Box>
 

@@ -26,12 +26,12 @@ export default function IndexPage() {
           />
           <Banner />
           <WhyChoose />
-          <SalesInvestment />
-          <RoadMap />
-          <TeamSection />
-          {/* <CountDownBlock />
-          <WorldwideUsers /> */}
           <OurWallet />
+          {/* <SalesInvestment /> */}
+          <RoadMap />
+          <CountDownBlock />
+          <TeamSection />
+          {/* <WorldwideUsers />  */}
           {/* <CallToAction /> */}
         </Layout>
       </StickyProvider>

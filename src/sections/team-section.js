@@ -155,24 +155,24 @@ const data = [
     title: 'Alexi',
     designation: 'Mobile Game Design',
     socialProfile: [
-      // {
-      //   id: 1,
-      //   name: 'facebook',
-      //   path: '#',
-      //   icon: <FaFacebookF />,
-      // },
-      // {
-      //   id: 2,
-      //   name: 'twitter',
-      //   path: '#',
-      //   icon: <FaTwitter />,
-      // },
-      // {
-      //   id: 3,
-      //   name: 'instagram',
-      //   path: '#',
-      //   icon: <FaInstagram />,
-      // },
+      {
+        id: 1,
+        name: 'facebook',
+        path: '#',
+        icon: <FaFacebookF />,
+      },
+      {
+        id: 2,
+        name: 'twitter',
+        path: '#',
+        icon: <FaTwitter />,
+      },
+      {
+        id: 3,
+        name: 'instagram',
+        path: '#',
+        icon: <FaInstagram />,
+      },
     ],
   },
 ];
@@ -185,7 +185,7 @@ export default function TeamSection() {
     <section>
     <Box id="team" sx={styles.blockTitle}>
           <Heading as="h2">Team</Heading>
-          <Text as="p">Lorem ipsum dolor sit amet consectetur adipisicing</Text>
+          <Text as="p">Meet the people preventing climate change and revolutionizing gaming.</Text>
         </Box>
       <Container>
         {/* <SectionHeader

@@ -1,16 +1,16 @@
 import Image from 'next/image';
 import { Box, Container, Flex, Link, Text, Heading } from 'theme-ui';
 import CountDown from 'react-countdown';
-import image from 'assets/countdown.png';
+import image from 'assets/nft-overview.jpg';
 
 const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
 const COUNTDOWN_DATA = {
-  title: 'Take control of your credit and identity.',
+  title: 'Pre-sale',
   text:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna aliqua minim Lorem ipsum dolor sit amet consectetur.',
+    'Become an early community member and take part in our exclusive pre-sale event',
   button: {
     link: '#',
-    label: 'Buy Tokens',
+    label: 'Buy NFTs',
   },
   image: image,
 };
@@ -22,7 +22,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
     return <Completionist />;
   } else {
     return (
-      <Box sx={styles.timerWrap}>
+      <Box as="section" sx={styles.timerWrap}>
         <Box sx={styles.timer}>
           <Text as="span">{days}</Text>
           <Heading as="h3">Days</Heading>
@@ -46,13 +46,14 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
 const CountDownBlock = () => {
   const { title, text, button, image } = COUNTDOWN_DATA;
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" id="nft-sale" sx={styles.section}>
       <Container sx={styles.container}>
         <Flex sx={styles.row}>
           <Box sx={styles.content}>
             <Heading as="h2">{title}</Heading>
             <Text as="p">{text}</Text>
             <CountDown date={deadline} renderer={renderer} />
+            <br></br>
             <Link sx={styles.button} href={button.link}>
               {button.label}
             </Link>
@@ -141,7 +142,7 @@ const styles = {
     },
   },
   button: {
-    backgroundColor: 'heading_secondary',
+    backgroundColor: '#EEF1F4',
     borderRadius: '5px',
     fontSize: ['13px', '14px', '15px'],
     padding: ['14px 20px 13px', '14px 25px 13px', '17px 30px 15px'],
@@ -150,11 +151,11 @@ const styles = {
     display: 'inline-flex',
     alignItems: 'center',
     textTransform: 'uppercase',
-    color: '#ffffff',
-    mt: ['25px', '30px', '35px', '30px', '40px'],
+    color: 'rgba(2,7,62,.7)',
     transition: 'all 300ms ease',
     '&:hover': {
-      opacity: 0.8,
+      backgroundColor: 'primary',
+      color: '#ffffff',
     },
   },
 };

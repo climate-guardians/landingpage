@@ -4,7 +4,7 @@ import line from 'assets/roadmap-line.svg';
 const ROAD_MAP_DATA = {
   blockTitle: {
     title: 'Meet the Roadmap',
-    text: 'Rainforest captures Co2',
+    text: 'The journey to Climate Neutral',
   },
   posts: [
     {

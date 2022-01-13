@@ -8,16 +8,20 @@ const MENU_DATA = [
     label: 'USP',
   },
   {
+    path: 'game',
+    label: 'Game',
+  },
+  {
     path: 'roadmap',
     label: 'Roadmap',
   },
   {
-    path: 'team',
-    label: 'Team',
+    path: 'nft-sale',
+    label: 'PreSale',
   },
   {
-    path: 'game',
-    label: 'Game',
+    path: 'team',
+    label: 'Team',
   },
   {
     path: 'community',

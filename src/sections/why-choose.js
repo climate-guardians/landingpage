@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Box, Flex, Heading, Text, Image as Img } from 'theme-ui';
-import icon1 from 'assets/why-choose-gaming.svg';
-import icon2 from 'assets/why-choose-2.svg';
-import icon3 from 'assets/why-choose-3.svg';
-import icon4 from 'assets/why-choose-4.svg';
+import icon1 from 'assets/why-choose-battle.svg';
+import icon2 from 'assets/why-choose-plant.svg';
+import icon3 from 'assets/why-choose-waterfall.svg';
+import icon4 from 'assets/why-choose-yield.svg';
 const WHY_CHOOSE_DATA = {
   blockTitle: {
     title: 'We at Climate Guardians combine',
@@ -24,13 +24,13 @@ const WHY_CHOOSE_DATA = {
     },
     {
       icon: icon3,
-      title: 'Rainforest Treasury',
+      title: 'Rainforest',
       text:
         'Participate in the in-game treasury of real world rainforest owned and protected by the community.',
     },
     {
       icon: icon4,
-      title: 'Defi',
+      title: 'Yield',
       text:
         'Stake your Oxygen & Co2 tokens, earn yield and claim fractional ownership',
     },

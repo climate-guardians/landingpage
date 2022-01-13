@@ -8,31 +8,42 @@ import {
   Link,
   Image as Img,
 } from 'theme-ui';
-import walletImage from 'assets/politician.png';
+import walletImage from 'assets/climate-logo.png';
 import icon1 from 'assets/wallet-1.svg';
-import icon2 from 'assets/wallet-2.svg';
 import icon3 from 'assets/wallet-3.svg';
+import icon4 from 'assets/wallet-seed.svg';
+import icon5 from 'assets/wallet-market.svg';
+import icon6 from 'assets/wallet-earth.svg';
 import button1 from 'assets/wallet-apple.png';
 import button2 from 'assets/wallet-google.png';
 const OUR_WALLET_DATA = {
   walletThumb: walletImage,
-  title: 'Our Mobile Game',
+  title: 'The Official Amazon Protection NFT Game.',
   text:
     'In-game success reflects real world impact, allowing players to join the alliance to safeguard the amazon and strive for a decarbonized world.',
   tagLine: '*Game is in development',
   options: [
     {
       icon: icon1,
-      label: 'Easy and secure onboarding.',
-    },
-    {
-      icon: icon2,
-      label: 'In game wallet.',
+      label: 'Play as Legendary Guardians',
     },
     {
       icon: icon3,
-      label: 'Deposit and earn Co2.',
+      label: 'Charge Assets & Generate Rewards',
     },
+    {
+      icon: icon4,
+      label: 'Plant Seeds & Grow your Forest',
+    },
+    {
+      icon: icon5,
+      label: 'Eco-Friendly Marketplace',
+    },
+    {
+      icon: icon6,
+      label: 'Join the Alliance To Safeguard the Amazon',
+    },
+
   ],
   buttons: [
     {
@@ -64,8 +75,8 @@ const OurWallet = () => {
             <Image
               src={walletThumb}
               alt="App Mockup"
-              width={615}
-              height={770}
+              width={521}
+              height={652}
             />
           </Box>
           <Box sx={styles.content}>
@@ -81,7 +92,7 @@ const OurWallet = () => {
                 </Text>
               ))}
             </Box>
-            <Box sx={styles.buttonWrap}>
+            {/* <Box sx={styles.buttonWrap}>
               {buttons.map(({ icon, link, label }, index) => (
                 <Link
                   sx={styles.button}
@@ -92,7 +103,7 @@ const OurWallet = () => {
                   {label}
                 </Link>
               ))}
-            </Box>
+            </Box> */}
             <Text as="span">{tagLine}</Text>
           </Box>
         </Flex>
