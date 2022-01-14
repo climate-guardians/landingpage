@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Box, Container, Flex, Link, Text, Heading } from 'theme-ui';
 import CountDown from 'react-countdown';
-import image from 'assets/nft-overview.jpg';
+import image from 'assets/cg-banner.png';
 
 const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
 const COUNTDOWN_DATA = {
@@ -59,7 +59,10 @@ const CountDownBlock = () => {
             </Link>
           </Box>
           <Box sx={styles.image}>
-            <Image src={image} alt="image" width={698} height={493} />
+            <Image src={image} alt="image" 
+            width={1120} 
+            height={458} 
+            />
           </Box>
         </Flex>
       </Container>
@@ -114,6 +117,7 @@ const styles = {
     pl: [null, null, null, '30px', '70px', null, '50px'],
     img: {
       display: 'flex',
+      borderRadius: '20px 20px 20px 20px'
     },
   },
   timerWrap: {

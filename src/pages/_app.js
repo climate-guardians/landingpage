@@ -12,6 +12,7 @@ import '@fontsource/dm-sans/500.css';
 import '@fontsource/dm-sans/700.css';
 import 'rc-drawer/assets/index.css';
 import 'react-modal-video/css/modal-video.min.css';
+import "../css/embla.css";
 
 export default function CustomApp({ Component, pageProps }) {
   /** 

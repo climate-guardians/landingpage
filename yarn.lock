@@ -1606,6 +1606,23 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
+embla-carousel-autoplay@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/embla-carousel-autoplay/-/embla-carousel-autoplay-6.0.2.tgz#cfd49ed70b3f0b89d53fe371ef98c7f9d29753cf"
+  integrity sha512-S9R0GoX0D+fuKwtl6ITSSYYO2dE0eT7nQ0vhKojEBcW5sW048vLPGaZttm2Xsm52YsyaFmAmd59nseTx7n/3Gg==
+
+embla-carousel-react@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-6.0.2.tgz#86de4481f949d1bf003d2c071cac135e3e7f01b5"
+  integrity sha512-oHNicBXb1V3o8KmKzgw38hf4SBy1i//7WY6dsHr7KAyrhyg9vGJck4h3S93TeIFtWJuctrxonlm6zlYzV9LYMQ==
+  dependencies:
+    embla-carousel "6.0.2"
+
+embla-carousel@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-6.0.2.tgz#de6503eaf7538eaac5a71d25cce32a073e51529a"
+  integrity sha512-6unBWN0u6ryxwHxTafQs2z9VnvOT3J7FGzLlmISFWw+kPEi8k8rlReRcqvotg6BTYRjsPmpH909xhPe/7DsUYw==
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
@@ -3857,7 +3874,7 @@ react-custom-scrollbars@^4.2.1:
     prop-types "^15.5.10"
     raf "^3.1.0"
 
-react-dom@^17.0.1:
+react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -3936,7 +3953,7 @@ react-waypoint@^9.0.3:
     prop-types "^15.0.0"
     react-is "^16.6.3"
 
-react@^17.0.1:
+react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==

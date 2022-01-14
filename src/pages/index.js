@@ -10,10 +10,13 @@ const WorldwideUsers = dynamic(import('sections/worldwide-user'));
 const OurWallet = dynamic(import('sections/our-wallet'));
 const CallToAction = dynamic(import('sections/call-to-action'));
 const TeamSection = dynamic(import('sections/team-section'));
+const EmblaCarousel = dynamic(import('components/EmblaCarousel'));
 import { ThemeProvider } from 'theme-ui';
 import { StickyProvider } from 'contexts/app/app.provider';
 import theme from 'theme';
 
+const SLIDE_COUNT = 5;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function IndexPage() {
   return (
@@ -30,6 +33,7 @@ export default function IndexPage() {
           {/* <SalesInvestment /> */}
           <RoadMap />
           <CountDownBlock />
+          <EmblaCarousel slides={slides} />
           <TeamSection />
           {/* <WorldwideUsers />  */}
           {/* <CallToAction /> */}
