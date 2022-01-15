@@ -8,7 +8,7 @@ import {
   Link,
   Image as Img,
 } from 'theme-ui';
-import walletImage from 'assets/climate-logo.png';
+import walletImage from 'assets/climate-logo-only.png';
 import icon1 from 'assets/wallet-1.svg';
 import icon3 from 'assets/wallet-3.svg';
 import icon4 from 'assets/wallet-seed.svg';
@@ -75,8 +75,8 @@ const OurWallet = () => {
             <Image
               src={walletThumb}
               alt="App Mockup"
-              width={521}
-              height={652}
+              width={469}
+              height={587}
             />
           </Box>
           <Box sx={styles.content}>

@@ -1,6 +1,6 @@
 .embla {
   position: relative;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding: 20px;
   max-width: 670px;
   margin-left: auto;
@@ -22,6 +22,7 @@
 }
 
 .embla__container {
+  height: 100%;
   display: flex;
   user-select: none;
   -webkit-touch-callout: none;
@@ -31,27 +32,29 @@
 }
 
 .embla__slide {
+  height: 100%;
   position: relative;
-  flex: 0 0 100%;
+  flex: 0 0 40%;
   /* min-width: 100%; */
+ 
+  /* object-fit: scale-down; */
   padding-left: 10px;
 }
 
 .embla__slide__inner {
   position: relative;
   overflow: hidden;
-  height: 750px;
+  height: 250px;
 }
 
 .embla__slide__img {
   position: absolute;
   display: block;
+  object-fit: contain;
   top: 50%;
   left: 50%;
-  width: auto;
-  min-height: 100%;
-  min-width: 100%;
-  max-width: none;
+  width: 200px;
+  height: 200px;
   transform: translate(-50%, -50%);
 }
 

@@ -2,18 +2,18 @@
 /** @jsx jsx */
 import { jsx, Container, Flex } from 'theme-ui';
 import { Link as ScrollLink } from 'react-scroll';
-// import Logo from 'components/logo';
+import Logo from 'components/logo';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
 import MENU_DATA from './header.data';
-// import logoDark from 'assets/terre.svg';
+import logoDark from 'assets/climate-logo-text.png';
 
 export default function Header({ className }) {
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className}>
         <Container sx={styles.container}>
-          {/* <Logo image={logoDark} /> */}
+          <Logo image={logoDark} />
 
           <Flex as="nav" sx={styles.nav}>
             {MENU_DATA.map(({ path, label }, i) => (

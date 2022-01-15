@@ -13,7 +13,7 @@ export default function Logo({ image }) {
         alignItems: 'center',
       }}
     >
-      <Image src={image} alt="startup landing logo" width={195} height={37} />
+      <Image src={image} alt="climate guardians logo" width={100} height={20} />
     </Link>
   );
 }

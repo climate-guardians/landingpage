@@ -4,7 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { mediaByIndex } from "../assets/media";
 
-const EmblaCarousel = ({ slides, options = { loop: false } }) => {
+const EmblaCarousel = ({ slides, options = { loop: true } }) => {
   const autoplay = useRef(
     Autoplay(
       { delay: 2000, stopOnInteraction: false },
@@ -57,8 +57,8 @@ const EmblaCarousel = ({ slides, options = { loop: false } }) => {
           ))}
         </div>
       </div>
-      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+      {/* <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
+      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} /> */}
     </div>
   );
 };

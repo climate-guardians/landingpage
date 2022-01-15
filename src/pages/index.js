@@ -15,7 +15,7 @@ import { ThemeProvider } from 'theme-ui';
 import { StickyProvider } from 'contexts/app/app.provider';
 import theme from 'theme';
 
-const SLIDE_COUNT = 5;
+const SLIDE_COUNT = 16;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 
 export default function IndexPage() {
