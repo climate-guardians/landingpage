@@ -7,7 +7,7 @@ import { mediaByIndex } from "../assets/media";
 const EmblaCarousel = ({ slides, options = { loop: false } }) => {
   const autoplay = useRef(
     Autoplay(
-      { delay: 3000, stopOnInteraction: false },
+      { delay: 2000, stopOnInteraction: false },
       (emblaRoot) => emblaRoot.parentElement
     )
   );
@@ -50,7 +50,7 @@ const EmblaCarousel = ({ slides, options = { loop: false } }) => {
                 <img
                   className="embla__slide__img"
                   src={mediaByIndex(index)}
-                  alt="A cool cat."
+                  alt="A cool Climate Guardian."
                 />
               </div>
             </div>
