@@ -18,7 +18,7 @@ import button1 from 'assets/wallet-apple.png';
 import button2 from 'assets/wallet-google.png';
 const OUR_WALLET_DATA = {
   walletThumb: walletImage,
-  title: 'The Official Amazon Protection NFT Game.',
+  title: 'The Play to Preserve NFT Game.',
   text:
     'In-game success reflects real world impact, allowing players to join the alliance to safeguard the amazon and strive for a decarbonized world.',
   tagLine: '*Game is in development',
@@ -33,7 +33,7 @@ const OUR_WALLET_DATA = {
     },
     {
       icon: icon4,
-      label: 'Plant Seeds & Grow your Forest',
+      label: 'Set outpost & Protect your Forest',
     },
     {
       icon: icon5,

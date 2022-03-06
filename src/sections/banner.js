@@ -5,7 +5,7 @@ import BannerImage from 'assets/curupira.png';
 const BANNER_DATA = {
   title: 'Welcome to Climate Guardians',
   text:
-    'The play and earn Game with real world impact on Climate Change.',
+    'The play to preserve Game with real world impact on Climate Change.',
   button: {
     link: '#',
     label: 'Save the Amazon',
